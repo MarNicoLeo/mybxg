@@ -8,7 +8,10 @@ requirejs.config({
         bootstrap:"bootstrap/js/bootstrap.min",
         cookie:"jquery-cookie/jquery.cookie",
         login:"../js/login",
-        common:'../js/common'
+        common:'../js/common',
+        template:'artTemplate/template-web',
+        tealist:'../js/teacher-list',
+        nprogress:'nprogress/nprogress'
     },
     shim:{
         bootstrap:{

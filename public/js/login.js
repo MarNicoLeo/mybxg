@@ -11,7 +11,6 @@ define(['jquery','cookie'],function ($) {
             success: function (data) {
                 if(data.code==200){
                     $.cookie('loginInfo',JSON.stringify(data.result),{path:'/'});
-                    console.log('1');
                     location.href='/index/index';
                 }
             }
